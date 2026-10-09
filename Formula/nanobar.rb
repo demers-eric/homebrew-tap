@@ -6,7 +6,6 @@ class Nanobar < Formula
   # This tells Homebrew to pull directly from your fork and branch
   head "https://github.com/demers-eric/nanobar.git", branch: "alt-key-visibility"
 
-  depends_on xcode: ["26.0", :build]
   depends_on macos: :sequoia
 
   def install
